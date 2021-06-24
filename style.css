@@ -1,0 +1,67 @@
+/*font-family: 'Caveat', cursive;
+font-family: 'Pacifico', cursive;*/
+/*font-family: 'Caveat', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;*/
+
+body{
+background-image: url('./assets/agri5.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+#about{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+
+}
+
+#nav{
+    background-color: #1cdbcf;
+}
+
+#nav p{
+    margin-left: 2%;
+}
+
+nav{
+display: flex;      
+justify-content: space-between;
+margin-right: 10%;
+}
+
+ #nav ul{
+    display: flex;
+}
+
+#nav ul li{
+    justify-content: space-between;
+   list-style: none;
+    /* display: inline; */
+    padding-right: 20px;
+}
+
+#products{
+    display: flex;
+
+}
+#product div{
+    padding: 10px 20px 10px 20px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+
+}
+#product>div{
+    background-color: burlywood;
+    opacity: 0.9;
+}
+footer{
+ background-color: chartreuse;
+text-align: center;
+margin-top: 10%;
+margin-bottom: 0%;
+height: 50px;
+font-family: 'Pacifico', cursive;
+
+}
