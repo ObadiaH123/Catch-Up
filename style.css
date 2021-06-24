@@ -8,7 +8,7 @@ body{
 background-image: url('./assets/agri5.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+height: 100%;
 }
 #about{
     text-align: center;
@@ -22,13 +22,14 @@ height: 100vh;
 }
 
 #nav p{
-    margin-left: 2%;
+    margin-right: auto;
+    float: left;
 }
 
 nav{
 display: flex;      
 justify-content: space-between;
-margin-right: 10%;
+margin-right: auto;
 }
 
  #nav ul{
@@ -39,34 +40,36 @@ margin-right: 10%;
     justify-content: space-between;
    list-style: none;
     /* display: inline; */
-    padding-right: 20%;
+    padding-right: 20px;
 }
 
 #products{
     display: flex;
-
+    margin-right: auto;
 }
 
-#product div{
+#product {
     padding: 10px 20px 10px 20px;
     margin: 0 5px 0 5px;
     text-align: center;
     font-family: 'Caveat', cursive;
-
-}
-
-#product>div{
     background-color: burlywood;
     opacity: 0.9;
-    
+    border-radius: 0 0 30px 30px;
 }
 
-h2{
+#header{
+    background-color: rgb(210, 233, 164);
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+#header h2{
     text-align: center;
     font-family: 'Merienda', cursive;
-    background-color: rgb(210, 233, 164);
     margin-left: 40%;
     margin: auto;
+    font-size: 40px;
 
 }
 
@@ -75,12 +78,40 @@ font-size: 40px;
 }
 
 footer{
- background-color: chartreuse;
-text-align: center;
-/* margin-top: 10%;
-margin-bottom: 0%; */
-margin: auto;
-height: 7%;
+ background-color: rgb(173, 233, 112);
+/* text-align: center; */
+margin-top: 10px;
+margin-bottom:auto;
+/* margin: 20px;; */
+height: auto;
 font-family: 'Pacifico', cursive;
 
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#down1>ul >li{
+   list-style: none;
+}
+
+#down2>ul >li{
+    list-style: none;
+ }
+
+ #down3>ul >li{
+    list-style: none;
+ }
+
+ #down{
+     border:3px solid white;
+     width: 50px;
+ }
+
+#copy{
+    text-align: center;
+    margin-top: 5%;
 }
