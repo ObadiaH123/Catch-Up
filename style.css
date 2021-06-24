@@ -18,6 +18,7 @@ height: 100vh;
 
 #nav{
     background-color: #1cdbcf;
+    margin: auto;
 }
 
 #nav p{
@@ -38,13 +39,14 @@ margin-right: 10%;
     justify-content: space-between;
    list-style: none;
     /* display: inline; */
-    padding-right: 20px;
+    padding-right: 20%;
 }
 
 #products{
     display: flex;
 
 }
+
 #product div{
     padding: 10px 20px 10px 20px;
     margin: 0 5px 0 5px;
@@ -52,16 +54,33 @@ margin-right: 10%;
     font-family: 'Caveat', cursive;
 
 }
+
 #product>div{
     background-color: burlywood;
     opacity: 0.9;
+    
 }
+
+h2{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    background-color: rgb(210, 233, 164);
+    margin-left: 40%;
+    margin: auto;
+
+}
+
+h3{
+font-size: 30px;
+}
+
 footer{
  background-color: chartreuse;
 text-align: center;
-margin-top: 10%;
-margin-bottom: 0%;
-height: 50px;
+/* margin-top: 10%;
+margin-bottom: 0%; */
+margin: auto;
+height: 7%;
 font-family: 'Pacifico', cursive;
 
 }
