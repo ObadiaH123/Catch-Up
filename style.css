@@ -59,8 +59,9 @@ margin-right: auto;
 }
 
 #header{
-    background-color: rgb(210, 233, 164);
+    background-color: rgb(166, 216, 65);
     margin-left: 38%;
+    border-radius: 0 0 30px 30px;
     margin-right: 38%;
 }
 
@@ -70,7 +71,6 @@ margin-right: auto;
     margin-left: 40%;
     margin: auto;
     font-size: 40px;
-
 }
 
 h3{
@@ -85,7 +85,7 @@ margin-bottom:auto;
 /* margin: 20px;; */
 height: auto;
 font-family: 'Pacifico', cursive;
-
+opacity: 0.9;
 }
 .down{
     display: flex;
